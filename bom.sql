@@ -30,7 +30,7 @@ CREATE TABLE `bom` (
   `description` varchar(128) DEFAULT NULL,
   `qty` int(10) unsigned DEFAULT NULL,
   `unit` varchar(4) DEFAULT NULL,
-  `type` varchar(4) DEFAULT NULL,
+  `type` varchar(5) DEFAULT NULL,
   `manufacturer` varchar(64) DEFAULT NULL,
   `manufacturer_pn` varchar(64) DEFAULT NULL,
   `supplier` varchar(64) DEFAULT NULL,
@@ -40,6 +40,8 @@ CREATE TABLE `bom` (
   `notes` varchar(255) DEFAULT NULL,
   `cost_u` float DEFAULT NULL,
   `cost_e` float DEFAULT NULL,
+  `types` varchar(255) DEFAULT NULL,
+  `tuples` varchar(255) DEFAULT NULL,
   `top` tinyint(1) DEFAULT NULL,
   `chksum` varchar(40) DEFAULT NULL,
   PRIMARY KEY (`item`),
@@ -66,4 +68,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-10-18 12:11:12
+-- Dump completed on 2013-11-12  8:18:55
