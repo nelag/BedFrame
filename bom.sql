@@ -63,7 +63,7 @@ INSERT INTO `bom` VALUES (4,'BED04',NULL,NULL,'Right Leg Assy',2,'each',NULL,NUL
 INSERT INTO `bom` VALUES (5,'BED05',NULL,NULL,'Slats',12,'each',NULL,NULL,NULL,NULL,NULL,'https://www.dropbox.com/s/16vuqgflfk2ftck/SLAT.PDF',NULL,NULL,NULL,NULL,NULL,NULL,1,'');
 INSERT INTO `bom` VALUES (6,'BED06',3,NULL,'Long Leg',1,'each',NULL,NULL,NULL,NULL,NULL,'https://www.dropbox.com/s/23j9sy87o6le82z/LEG%20LONG.PDF',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'');
 INSERT INTO `bom` VALUES (7,'BED07',3,NULL,'Short Leg',1,'each',NULL,NULL,NULL,NULL,NULL,'https://www.dropbox.com/s/tclyhijbtpskr9l/LEG%20SHORT.PDF',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'');
-INSERT INTO `bom` VALUES (8,'90610A253',3,NULL,'Wood Screw, Square Drive, Zinc-Plated Steel, Number 10, 2\" Long',5,'each',NULL,'McMaster','90610A253','McMaster','90610A253','http://www.mcmaster.com/#90184a050/=pnty32',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'');
+INSERT INTO `bom` VALUES (8,'90610A253',3,NULL,'Wood Screw, Square Drive, Zinc-Plated Steel, Number 10, 2\" Long',5,'each',NULL,'McMaster','90610A253','McMaster','90610A253','http://www.mcmaster.com/#90610a253/=pott7q',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'');
 /*!40000 ALTER TABLE `bom` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -76,4 +76,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-12-06  8:12:58
+-- Dump completed on 2013-12-06  8:15:17
