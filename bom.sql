@@ -47,7 +47,7 @@ CREATE TABLE `bom` (
   PRIMARY KEY (`item`),
   KEY `item` (`item`),
   KEY `part` (`part`)
-) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -56,7 +56,7 @@ CREATE TABLE `bom` (
 
 LOCK TABLES `bom` WRITE;
 /*!40000 ALTER TABLE `bom` DISABLE KEYS */;
-INSERT INTO `bom` VALUES (1,'BED01',NULL,NULL,'Long Beam',2,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'');
+INSERT INTO `bom` VALUES (1,'BED01',NULL,NULL,'Long Beam',2,'each',NULL,NULL,NULL,NULL,NULL,'https://www.dropbox.com/s/9geigro8cfmd05f/LONG.PDF',NULL,NULL,NULL,NULL,NULL,NULL,1,'');
 INSERT INTO `bom` VALUES (2,'BED02',NULL,NULL,'Cross Member Assy',2,'each',NULL,NULL,NULL,NULL,NULL,'https://www.dropbox.com/s/w8wvu13pi6tbu2r/CROSS%20MEMBER.PDF',NULL,NULL,NULL,NULL,NULL,NULL,1,'');
 INSERT INTO `bom` VALUES (3,'BED03',NULL,NULL,'Left Leg Assy',2,'each',NULL,NULL,NULL,NULL,NULL,'https://www.dropbox.com/s/hh36iguiu3y5s3q/LEFT%20LEG%20ASSY.PDF',NULL,NULL,NULL,NULL,NULL,NULL,1,'');
 INSERT INTO `bom` VALUES (4,'BED04',NULL,NULL,'Right Leg Assy',2,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'');
@@ -66,6 +66,9 @@ INSERT INTO `bom` VALUES (7,'BED07',3,NULL,'Short Leg',1,'each',NULL,NULL,NULL,N
 INSERT INTO `bom` VALUES (8,'90610A253',3,NULL,'Wood Screw, Square Drive, Zinc-Plated Steel, Number 10, 2\" Long',5,'each',NULL,'McMaster','90610A253','McMaster','90610A253','http://www.mcmaster.com/#90610a253/=pott7q',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'');
 INSERT INTO `bom` VALUES (9,'90267A705',2,NULL,'5/16\" Threaded Inserrt',4,'each',NULL,'McMaster-Carr','90267A705','McMaster-Carr','90267A705','http://www.mcmaster.com/#90267a705/=pqh55r',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'');
 INSERT INTO `bom` VALUES (10,'BED08',2,NULL,'Coss Beam',1,'each',NULL,NULL,NULL,NULL,NULL,'https://www.dropbox.com/s/r7szn9992zwyfau/CROSS.PDF',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'');
+INSERT INTO `bom` VALUES (11,'BED09',3,NULL,'Bolt Assy',2,'each',NULL,NULL,NULL,NULL,NULL,'https://www.dropbox.com/s/1qgnv731rdhvoqu/BOLT%20ASSY.PDF',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'');
+INSERT INTO `bom` VALUES (12,'91247A599',11,NULL,'5/16\" x 4\" HCS',1,'each',NULL,'McMaster-Carr','91247A599','McMaster-Carr','91247A599','http://www.mcmaster.com/#91247a599/=pqj9pj',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'');
+INSERT INTO `bom` VALUES (13,'90126A030',11,NULL,'5/16\" Plain Washer',1,'each',NULL,'McMaster-Carr','90126A030','McMaster-Carr','90126A030','http://www.mcmaster.com/#90126a030/=pqjb4g',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'');
 /*!40000 ALTER TABLE `bom` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -78,4 +81,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-12-09 15:46:22
+-- Dump completed on 2013-12-09 15:59:03
